@@ -3,7 +3,7 @@ import { AnimatedText } from '@/components/AnimatedText';
 
 export function Teaser() {
   return (
-    <section className="relative text-center px-6 mt-[120px]">
+    <section className="relative text-center px-6 mt-24 sm:mt-[120px]">
       <div className="max-w-[800px] mx-auto">
         {/* Section Tag */}
         <motion.p

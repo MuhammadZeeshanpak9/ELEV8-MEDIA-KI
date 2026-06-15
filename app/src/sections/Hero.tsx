@@ -3,7 +3,7 @@ import { AnimatedText } from '@/components/AnimatedText';
 
 export function Hero() {
   return (
-    <section className="relative min-h-[100dvh] flex flex-col items-center justify-center text-center px-6">
+    <section id="home" className="relative min-h-[100dvh] flex flex-col items-center justify-center text-center px-6">
       <div className="max-w-[900px] mx-auto">
         {/* Eyebrow Label */}
         <motion.p

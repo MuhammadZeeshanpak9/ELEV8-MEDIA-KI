@@ -74,7 +74,7 @@ function VisionPillar({ pillar, delay }: { pillar: Pillar; delay: number }) {
 
 export function BrandVision() {
   return (
-    <section className="relative px-6 mt-[120px]">
+    <section id="vision" className="relative px-6 mt-24 sm:mt-[120px]">
       <div className="max-w-[1000px] mx-auto">
         {/* Section Header */}
         <motion.p

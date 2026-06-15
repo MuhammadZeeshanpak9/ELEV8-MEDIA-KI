@@ -1,5 +1,5 @@
 import { ThemeBackground } from '@/components/ThemeBackground/ThemeBackground';
-import { ReturnButton } from '@/sections/ReturnButton';
+import { Header } from '@/sections/Header';
 import { Hero } from '@/sections/Hero';
 import { CountdownTimer } from '@/sections/CountdownTimer';
 import { Teaser } from '@/sections/Teaser';
@@ -17,7 +17,7 @@ export default function Home() {
 
       {/* Content Layer */}
       <div className="relative" style={{ zIndex: 10 }}>
-        <ReturnButton />
+        <Header />
         <Hero />
         <CountdownTimer />
         <Teaser />

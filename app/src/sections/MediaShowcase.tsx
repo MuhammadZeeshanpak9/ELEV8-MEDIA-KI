@@ -22,7 +22,7 @@ export function MediaShowcase() {
   ];
 
   return (
-    <section className="relative w-full max-w-6xl mx-auto px-6 py-32 z-10">
+    <section id="craft" className="relative w-full max-w-6xl mx-auto px-6 py-20 sm:py-32 z-10">
       <div className="mb-16 text-center">
         <h2 className="text-3xl md:text-5xl font-light mb-4 tracking-wide">
           <AnimatedText text="Our Craft" type="words" />
